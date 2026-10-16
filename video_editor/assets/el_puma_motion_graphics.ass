@@ -1,0 +1,20 @@
+[Script Info]
+; EL PUMA — transparent typography motion graphics for 854x480 footage.
+ScriptType: v4.00+
+PlayResX: 854
+PlayResY: 480
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Title,Arial,48,&H00FFFFFF,&H00FFFFFF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,0,0,0,1
+Style: Body,Arial,22,&H00FFFFFF,&H00FFFFFF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,1.1,0,7,0,0,0,1
+Style: Energy,Arial,36,&H00FFFFFF,&H00FFFFFF,&H80000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.3,0,7,0,0,0,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.25,0:00:03.72,Title,,0,0,0,,{\move(10,-45,112,72,250,700)\fscx(105)\fscy(105)\t(250,700,\fscx(100)\fscy(100))\fad(60,450)}EL PUMA
+Dialogue: 1,0:00:00.90,0:00:03.72,Body,,0,0,0,,{\move(70,138,112,138,900,1250)\fad(180,450)}She is thinking about what’s next.
+Dialogue: 1,0:00:01.62,0:00:03.72,Body,,0,0,0,,{\move(70,170,112,170,1620,1970)\fad(180,450)}And for that, she will need El Puma.
+Dialogue: 0,0:00:04.08,0:00:07.72,Energy,,0,0,0,,{\move(85,158,85,96,4080,4560)\fscx(92)\fscy(92)\t(4080,4560,\fscx(100)\fscy(100))\fad(90,380)}El Puma gives her energy.

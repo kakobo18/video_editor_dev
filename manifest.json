@@ -1,0 +1,14 @@
+{
+  "videos": {},
+  "video_index": {
+    "1": "video_test.mp4",
+    "2": "output_spark.mp4",
+    "3": "output_spark_final.mp4",
+    "4": "temp_spark.mov"
+  },
+  "audio_index": {
+    "1": "test_tone.wav"
+  },
+  "bgm_index": {},
+  "subtitle_index": {}
+}
